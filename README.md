@@ -3,6 +3,15 @@
 ## Descripción del Proyecto
 Este proyecto implementa el juego "Lights Out" en Prolog, un juego de rompecabezas en el que el objetivo es apagar todas las luces en un tablero. Cuando se pulsa una luz, se cambia su estado y el de sus luces adyacentes (No las diagonales).
 
+a) Estado inicial: Se tiene un tablero de luces, donde cada casilla del tablero puede estar encendida o apagada.
+
+b) Interacción del jugador: El jugador puede pulsar una luz en cualquier posición del tablero. Al hacerlo, cambia el estado de esa luz (si estaba encendida, se apaga, y viceversa) y también cambia el estado de las luces adyacentes (horizontal y verticalmente).
+
+c) Objetivo del juego: Apagar todas las luces del tablero. El jugador gana cuando no queda ninguna luz encendida.
+
+d) Restricción: Solo se puede pulsar una luz a la vez. No es posible pulsar más de una luz simultáneamente.
+
+
 ## Pasos a Realizar
 
 1. **Iniciar el Tablero**
