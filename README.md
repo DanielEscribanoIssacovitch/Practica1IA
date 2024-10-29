@@ -31,12 +31,24 @@ Si necesitas ayuda durante el juego, utiliza el comando `ayuda.` para ver las in
 
 ## Ejemplo de Uso
 
-```prolog
+prolog
 ?- iniciar_tablero.
 ?- pulsar(1, 1).
 ?- pulsar(2, 2).
 ?- ganar.
 
+
 ## ¡¡SPOILER DE COMO GANAR!!
-No nos hacemos responsables de que no sea capaz de resolver este puzle, si continua leyendo verá como ganar desde que empiezas a jugar:
+No nos hacemos responsables de que no sea capaz de resolver este rompecabezas, 
+si continua leyendo verá una manera de ganar desde que empiezas a jugar:
+prolog
+?- iniciar_tablero.
+?- pulsar(2,2).
+?- pulsar(3,1).
+?- pulsar(2,3).
+?- pulsar(1,3).
+?- pulsar(1,1).
+?- pulsar(1,3).
+?- pulsar(3,2).
+?- ganar.
 
