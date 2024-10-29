@@ -13,7 +13,7 @@ iniciar_tablero :-
     write('¡Bienvenido al juego "Lights Out"!'), nl,
     write('Instrucciones:'), nl,
     write('1. El tablero tiene luces que pueden estar encendidas (1) o apagadas (0).'), nl,
-    write('2. Puedes pulsar una luz para cambiar su estado y el de sus luces adyacentes.'),nl,
+    write('2. Puedes pulsar una luz para cambiar su estado y el de sus luces adyacentes (arriba, abajo, derecha e izquierda pero no diagonal.'),nl,
     write('[Comando (X=fila, Y=columna): pulsar(X,Y). ej=pulsar(1,1).]'), nl,
     write('3. Tu objetivo es apagar todas las luces. ¡Buena suerte!'), nl,
     write('Estado inicial del tablero:'), nl,
@@ -84,3 +84,16 @@ ayuda :-
     write('2. El objetivo es apagar todas las luces en el tablero.'), nl,
     write('3. Cada vez que pulses una luz, cambiará su estado y el de sus luces adyacentes.'), nl,
     write('4. ¡Diviértete jugando!'), nl.
+
+
+
+
+
+
+
+
+
+
+
+
+
